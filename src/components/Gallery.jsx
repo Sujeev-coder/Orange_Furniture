@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import ScrollReveal from './ScrollReveal';
 
 const galleryData = [
-  { id: 1, category: 'sofa', img: '', alt: 'Modern sofa in living room', label: 'Sofa', delay: 0 },
+  { id: 1, category: 'sofa', img: 'https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=600&q=80', alt: 'Modern sofa in living room', label: 'Sofa', delay: 0 },
   { id: 2, category: 'interior', img: 'https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=600&q=80', alt: 'Modern interior design', label: 'Interior', delay: 0.05 },
   { id: 3, category: 'chair', img: 'https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?w=600&q=80', alt: 'Modern accent chair', label: 'Chair', delay: 0.1 },
   { id: 4, category: 'showroom', img: 'https://images.unsplash.com/photo-1524758631624-e2822e304c36?w=600&q=80', alt: 'Furniture showroom display', label: 'Showroom', delay: 0.15 },
