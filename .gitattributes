@@ -9,3 +9,4 @@
 *.bin binary
 .bin/** text eol=lf executable
 node_modules/.bin/* text eol=lf executable
+
