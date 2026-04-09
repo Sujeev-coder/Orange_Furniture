@@ -1,28 +1,19 @@
-import React, { useEffect } from 'react';
+import React from 'react';
+import { Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
-import Hero from './components/Hero';
-import TrustBar from './components/TrustBar';
-import Products from './components/Products';
-import CategoryGallery from './components/CategoryGallery';
-import WhyUs from './components/WhyUs';
-import Gallery from './components/Gallery';
-import Reviews from './components/Reviews';
-import Contact from './components/Contact';
 import Footer from './components/Footer';
 import WhatsAppButton from './components/WhatsAppButton';
+import HomePage from './pages/HomePage';
+import CategoriesPage from './pages/CategoriesPage';
 
 function App() {
   return (
     <>
       <Navbar />
-      <Hero />
-      <TrustBar />
-      <Products />
-      <CategoryGallery />
-      <WhyUs />
-      <Gallery />
-      <Reviews />
-      <Contact />
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/categories" element={<CategoriesPage />} />
+      </Routes>
       <Footer />
       <WhatsAppButton />
     </>

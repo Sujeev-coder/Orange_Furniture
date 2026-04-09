@@ -1,24 +1,30 @@
 import React, { useState, useEffect } from 'react';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { productCategories } from '../data/categories';
 
 const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
   const [activeHash, setActiveHash] = useState('#home');
+  const location = useLocation();
+  const navigate = useNavigate();
+  const isHomePage = location.pathname === '/';
 
   useEffect(() => {
     const handleScroll = () => {
       const scrollY = window.scrollY;
       setScrolled(scrollY > 60);
 
-      const sections = ['home', 'categories', 'all-categories', 'why-us', 'gallery', 'reviews', 'contact'];
-      for (const id of sections) {
-        const section = document.getElementById(id);
-        if (section) {
-          const sectionTop = section.offsetTop - 120;
-          const sectionHeight = section.offsetHeight;
-          if (scrollY >= sectionTop && scrollY < sectionTop + sectionHeight) {
-            setActiveHash(`#${id}`);
+      if (isHomePage) {
+        const sections = ['home', 'categories', 'why-us', 'gallery', 'reviews', 'contact'];
+        for (const id of sections) {
+          const section = document.getElementById(id);
+          if (section) {
+            const sectionTop = section.offsetTop - 120;
+            const sectionHeight = section.offsetHeight;
+            if (scrollY >= sectionTop && scrollY < sectionTop + sectionHeight) {
+              setActiveHash(`#${id}`);
+            }
           }
         }
       }
@@ -27,7 +33,20 @@ const Navbar = () => {
     window.addEventListener('scroll', handleScroll, { passive: true });
     handleScroll();
     return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
+  }, [isHomePage]);
+
+  // Handle hash scrolling when navigating back to home page
+  useEffect(() => {
+    if (isHomePage && location.hash) {
+      const id = location.hash.replace('#', '');
+      setTimeout(() => {
+        const el = document.getElementById(id);
+        if (el) {
+          el.scrollIntoView({ behavior: 'smooth' });
+        }
+      }, 100);
+    }
+  }, [location, isHomePage]);
 
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
@@ -39,34 +58,80 @@ const Navbar = () => {
     document.body.style.overflow = '';
   };
 
+  const handleHomeLink = (hash) => {
+    closeMenu();
+    if (isHomePage) {
+      const el = document.getElementById(hash);
+      if (el) {
+        el.scrollIntoView({ behavior: 'smooth' });
+      }
+    } else {
+      navigate(`/#${hash}`);
+    }
+  };
+
   return (
     <nav className={`navbar ${scrolled ? 'scrolled' : ''}`} id="navbar">
       <div className="container nav-container">
-        <a href="#" className="nav-logo">
+        <Link to="/" className="nav-logo" onClick={closeMenu}>
           <span className="logo-icon">🟠</span>
           <span className="logo-text">Orange<span className="logo-accent">Furniture</span></span>
-        </a>
+        </Link>
         <ul className={`nav-links ${menuOpen ? 'open' : ''}`} id="navLinks">
-          <li><a href="#home" className={activeHash === '#home' ? 'active' : ''} onClick={closeMenu}>Home</a></li>
-          <li className="nav-dropdown">
-            <a href="#all-categories" className={activeHash === '#all-categories' ? 'active' : ''} onClick={closeMenu}>Categories</a>
-            <div className="dropdown-menu">
-              {productCategories.map((category) => (
-                <a 
-                  key={category.id} 
-                  href={`#all-categories`} 
-                  className="dropdown-item"
-                  onClick={closeMenu}
-                >
-                  {category.name}
-                </a>
-              ))}
-            </div>
+          <li>
+            <a 
+              href="#home" 
+              className={isHomePage && activeHash === '#home' ? 'active' : ''} 
+              onClick={(e) => { e.preventDefault(); handleHomeLink('home'); }}
+            >
+              Home
+            </a>
           </li>
-          <li><a href="#why-us" className={activeHash === '#why-us' ? 'active' : ''} onClick={closeMenu}>Why Us</a></li>
-          <li><a href="#gallery" className={activeHash === '#gallery' ? 'active' : ''} onClick={closeMenu}>Gallery</a></li>
-          <li><a href="#reviews" className={activeHash === '#reviews' ? 'active' : ''} onClick={closeMenu}>Reviews</a></li>
-          <li><a href="#contact" className={activeHash === '#contact' ? 'active' : ''} onClick={closeMenu}>Contact</a></li>
+          <li>
+            <Link 
+              to="/categories" 
+              className={location.pathname === '/categories' ? 'active' : ''}
+              onClick={closeMenu}
+            >
+              Categories
+            </Link>
+          </li>
+          <li>
+            <a 
+              href="#why-us" 
+              className={isHomePage && activeHash === '#why-us' ? 'active' : ''} 
+              onClick={(e) => { e.preventDefault(); handleHomeLink('why-us'); }}
+            >
+              Why Us
+            </a>
+          </li>
+          <li>
+            <a 
+              href="#gallery" 
+              className={isHomePage && activeHash === '#gallery' ? 'active' : ''} 
+              onClick={(e) => { e.preventDefault(); handleHomeLink('gallery'); }}
+            >
+              Gallery
+            </a>
+          </li>
+          <li>
+            <a 
+              href="#reviews" 
+              className={isHomePage && activeHash === '#reviews' ? 'active' : ''} 
+              onClick={(e) => { e.preventDefault(); handleHomeLink('reviews'); }}
+            >
+              Reviews
+            </a>
+          </li>
+          <li>
+            <a 
+              href="#contact" 
+              className={isHomePage && activeHash === '#contact' ? 'active' : ''} 
+              onClick={(e) => { e.preventDefault(); handleHomeLink('contact'); }}
+            >
+              Contact
+            </a>
+          </li>
         </ul>
         <div className="nav-actions">
           <a href="tel:+919246221000" className="nav-cta">

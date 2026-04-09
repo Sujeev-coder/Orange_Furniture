@@ -1,15 +1,32 @@
 import React from 'react';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 
 const Footer = () => {
+  const location = useLocation();
+  const navigate = useNavigate();
+  const isHomePage = location.pathname === '/';
+
+  const handleHomeLink = (e, hash) => {
+    e.preventDefault();
+    if (isHomePage) {
+      const el = document.getElementById(hash);
+      if (el) {
+        el.scrollIntoView({ behavior: 'smooth' });
+      }
+    } else {
+      navigate(`/#${hash}`);
+    }
+  };
+
   return (
     <footer className="footer">
       <div className="container">
         <div className="footer-grid">
           <div className="footer-brand">
-            <a href="#" className="nav-logo">
+            <Link to="/" className="nav-logo">
               <span className="logo-icon">🟠</span>
               <span className="logo-text">Orange<span className="logo-accent">Furniture</span></span>
-            </a>
+            </Link>
             <p>Custom-crafted furniture for modern Indian homes. Quality, comfort & style at honest prices.</p>
             <div className="footer-socials">
               <a href="#" aria-label="Facebook">
@@ -26,22 +43,22 @@ const Footer = () => {
           <div className="footer-links">
             <h4>Quick Links</h4>
             <ul>
-              <li><a href="#home">Home</a></li>
-              <li><a href="#products">Products</a></li>
-              <li><a href="#why-us">Why Choose Us</a></li>
-              <li><a href="#gallery">Gallery</a></li>
-              <li><a href="#reviews">Reviews</a></li>
-              <li><a href="#contact">Contact</a></li>
+              <li><a href="#home" onClick={(e) => handleHomeLink(e, 'home')}>Home</a></li>
+              <li><Link to="/categories">Categories</Link></li>
+              <li><a href="#why-us" onClick={(e) => handleHomeLink(e, 'why-us')}>Why Choose Us</a></li>
+              <li><a href="#gallery" onClick={(e) => handleHomeLink(e, 'gallery')}>Gallery</a></li>
+              <li><a href="#reviews" onClick={(e) => handleHomeLink(e, 'reviews')}>Reviews</a></li>
+              <li><a href="#contact" onClick={(e) => handleHomeLink(e, 'contact')}>Contact</a></li>
             </ul>
           </div>
           <div className="footer-links">
             <h4>Categories</h4>
             <ul>
-              <li><a href="#products">Sofas</a></li>
-              <li><a href="#products">Beds &amp; Cots</a></li>
-              <li><a href="#products">Chairs</a></li>
-              <li><a href="#products">Office Furniture</a></li>
-              <li><a href="#products">Custom Furniture</a></li>
+              <li><Link to="/categories">Sofas</Link></li>
+              <li><Link to="/categories">Chairs</Link></li>
+              <li><Link to="/categories">Dining</Link></li>
+              <li><Link to="/categories">Tea Tables</Link></li>
+              <li><Link to="/categories">Cupboards</Link></li>
             </ul>
           </div>
           <div className="footer-links">

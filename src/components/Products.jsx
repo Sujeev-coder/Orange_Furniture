@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import ScrollReveal from './ScrollReveal';
 import { productCategories } from '../data/categories';
 import { products } from '../data/products';
@@ -44,9 +45,9 @@ const Products = () => {
 
         {/* Browse All Link */}
         <div className="browse-all-link">
-          <a href="#all-categories" className="cta-button">
+          <Link to="/categories" className="cta-button">
             Browse All Categories & Products →
-          </a>
+          </Link>
         </div>
       </div>
     </section>
