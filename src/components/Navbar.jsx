@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { productCategories } from '../data/categories';
 
 const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -10,7 +11,7 @@ const Navbar = () => {
       const scrollY = window.scrollY;
       setScrolled(scrollY > 60);
 
-      const sections = ['home', 'products', 'why-us', 'gallery', 'reviews', 'contact'];
+      const sections = ['home', 'categories', 'why-us', 'gallery', 'reviews', 'contact'];
       for (const id of sections) {
         const section = document.getElementById(id);
         if (section) {
@@ -47,7 +48,21 @@ const Navbar = () => {
         </a>
         <ul className={`nav-links ${menuOpen ? 'open' : ''}`} id="navLinks">
           <li><a href="#home" className={activeHash === '#home' ? 'active' : ''} onClick={closeMenu}>Home</a></li>
-          <li><a href="#products" className={activeHash === '#products' ? 'active' : ''} onClick={closeMenu}>Products</a></li>
+          <li className="nav-dropdown">
+            <a href="#categories" className={activeHash === '#categories' ? 'active' : ''} onClick={closeMenu}>Categories</a>
+            <div className="dropdown-menu">
+              {productCategories.map((category) => (
+                <a 
+                  key={category.id} 
+                  href={`#categories`} 
+                  className="dropdown-item"
+                  onClick={closeMenu}
+                >
+                  {category.name}
+                </a>
+              ))}
+            </div>
+          </li>
           <li><a href="#why-us" className={activeHash === '#why-us' ? 'active' : ''} onClick={closeMenu}>Why Us</a></li>
           <li><a href="#gallery" className={activeHash === '#gallery' ? 'active' : ''} onClick={closeMenu}>Gallery</a></li>
           <li><a href="#reviews" className={activeHash === '#reviews' ? 'active' : ''} onClick={closeMenu}>Reviews</a></li>
