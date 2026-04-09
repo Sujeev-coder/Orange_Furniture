@@ -1,14 +1,13 @@
-import React, { useState } from 'react';
+import React from 'react';
 import ScrollReveal from './ScrollReveal';
 import { productCategories } from '../data/categories';
 import { products } from '../data/products';
 
 const Products = () => {
-  const [selectedCategory, setSelectedCategory] = useState(null);
-  
-  const filteredProducts = selectedCategory 
-    ? products.filter(p => p.categoryId === selectedCategory)
-    : products;
+  // Get one featured product from each category
+  const featuredProducts = productCategories.map(category => 
+    products.find(p => p.categoryId === category.id)
+  );
 
   return (
     <section className="products" id="categories">
@@ -19,32 +18,13 @@ const Products = () => {
           <p className="section-subtitle">Handcrafted furniture designed for modern Indian homes</p>
         </ScrollReveal>
 
-        {/* Category Filter */}
-        <div className="category-filter">
-          <button 
-            className={`filter-btn ${selectedCategory === null ? 'active' : ''}`}
-            onClick={() => setSelectedCategory(null)}
-          >
-            All Products
-          </button>
-          {productCategories.map((category) => (
-            <button
-              key={category.id}
-              className={`filter-btn ${selectedCategory === category.id ? 'active' : ''}`}
-              onClick={() => setSelectedCategory(category.id)}
-            >
-              {category.name}
-            </button>
-          ))}
-        </div>
-
-        {/* Products Grid */}
-        <div className="products-grid">
-          {filteredProducts.map((product, index) => (
+        {/* Featured Products Grid - One per Category */}
+        <div className="products-grid featured-grid">
+          {featuredProducts.map((product, index) => (
             <ScrollReveal 
               key={product.id} 
               className="product-card" 
-              delay={(index % 4) * 0.1}
+              delay={index * 0.1}
             >
               <div className="product-img-wrap">
                 <img src={product.image} alt={product.name} loading="lazy" />
@@ -60,6 +40,13 @@ const Products = () => {
               </div>
             </ScrollReveal>
           ))}
+        </div>
+
+        {/* Browse All Link */}
+        <div className="browse-all-link">
+          <a href="#all-categories" className="cta-button">
+            Browse All Categories & Products →
+          </a>
         </div>
       </div>
     </section>

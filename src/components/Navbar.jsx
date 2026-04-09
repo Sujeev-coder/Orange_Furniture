@@ -11,7 +11,7 @@ const Navbar = () => {
       const scrollY = window.scrollY;
       setScrolled(scrollY > 60);
 
-      const sections = ['home', 'categories', 'why-us', 'gallery', 'reviews', 'contact'];
+      const sections = ['home', 'categories', 'all-categories', 'why-us', 'gallery', 'reviews', 'contact'];
       for (const id of sections) {
         const section = document.getElementById(id);
         if (section) {
@@ -49,12 +49,12 @@ const Navbar = () => {
         <ul className={`nav-links ${menuOpen ? 'open' : ''}`} id="navLinks">
           <li><a href="#home" className={activeHash === '#home' ? 'active' : ''} onClick={closeMenu}>Home</a></li>
           <li className="nav-dropdown">
-            <a href="#categories" className={activeHash === '#categories' ? 'active' : ''} onClick={closeMenu}>Categories</a>
+            <a href="#all-categories" className={activeHash === '#all-categories' ? 'active' : ''} onClick={closeMenu}>Categories</a>
             <div className="dropdown-menu">
               {productCategories.map((category) => (
                 <a 
                   key={category.id} 
-                  href={`#categories`} 
+                  href={`#all-categories`} 
                   className="dropdown-item"
                   onClick={closeMenu}
                 >
