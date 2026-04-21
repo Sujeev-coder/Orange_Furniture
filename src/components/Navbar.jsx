@@ -71,7 +71,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className={`navbar ${scrolled ? 'scrolled' : ''}`} id="navbar">
+    <nav className={`navbar ${scrolled || !isHomePage ? 'scrolled' : ''}`} id="navbar">
       <div className="container nav-container">
         <Link to="/" className="nav-logo" onClick={closeMenu}>
           <span className="logo-icon">🟠</span>

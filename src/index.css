@@ -488,6 +488,8 @@ ul { list-style: none; }
     overflow: hidden;
     transition: var(--transition);
     box-shadow: var(--shadow-sm);
+    display: flex;
+    flex-direction: column;
 }
 .product-card:hover {
     transform: translateY(-8px);
@@ -536,6 +538,9 @@ ul { list-style: none; }
 }
 .product-info {
     padding: 20px 24px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
 }
 .product-info h3 {
     font-size: 1.1rem;
@@ -590,7 +595,8 @@ ul { list-style: none; }
     font-size: 1.3rem;
     font-weight: 800;
     color: var(--orange);
-    margin-top: 12px;
+    margin-top: auto;
+    padding-top: 12px;
 }
 
 /* ===== BROWSE ALL LINK ===== */

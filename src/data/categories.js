@@ -3,35 +3,49 @@ export const productCategories = [
     id: 1,
     name: 'Sofas',
     description: 'Premium sofas in various styles and sizes',
-    image: 'https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=600&q=80',
+    image: '/Orange Furniture Assets/Sofas/20260420_143940.jpg-Photoroom.png',
     folder: 'Sofas'
   },
   {
     id: 2,
     name: 'Chairs',
     description: 'Comfortable and stylish chairs for every room',
-    image: 'https://images.unsplash.com/photo-1506439773649-6e0eb8cfb237?w=600&q=80',
+    image: '/Orange Furniture Assets/Chairs/IMG_6383-Photoroom.png',
     folder: 'Chairs'
   },
   {
     id: 3,
     name: 'Dining',
     description: 'Elegant dining sets and tables',
-    image: 'https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?w=600&q=80',
+    image: '/Orange Furniture Assets/Dining/20260420_144233.jpg-Photoroom (1).png',
     folder: 'Dining'
   },
   {
     id: 4,
     name: 'Tea Tables',
     description: 'Beautiful and functional tea tables',
-    image: 'https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=600&q=80',
+    image: '/Orange Furniture Assets/tea tables/IMG_6374-Photoroom.png',
     folder: 'tea tables'
   },
   {
     id: 5,
     name: 'Cupboards',
     description: 'Spacious storage solutions for your home',
-    image: 'https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=600&q=80',
+    image: '/Orange Furniture Assets/Cupboards/IMG_6380-Photoroom.png',
     folder: 'Cupboards'
+  },
+  {
+    id: 6,
+    name: 'Office Tables',
+    description: 'Professional office furniture and workstations',
+    image: '/Orange Furniture Assets/Office tables/20260420_144955.jpg-Photoroom.png',
+    folder: 'Office tables'
+  },
+  {
+    id: 7,
+    name: 'Others',
+    description: 'Miscellaneous furniture and accessories',
+    image: '/Orange Furniture Assets/Others/IMG_6380-Photoroom.png',
+    folder: 'Others'
   }
 ];
