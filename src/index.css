@@ -591,12 +591,54 @@ ul { list-style: none; }
     letter-spacing: 0.05em;
     margin-bottom: 6px;
 }
+
+.product-pricing {
+    display: flex;
+    align-items: flex-end;
+    gap: 12px;
+    margin-top: auto;
+    padding-top: 12px;
+}
+
+.product-discount-badge {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 48px;
+    height: 48px;
+    background: var(--orange);
+    color: var(--white);
+    font-size: 0.9rem;
+    font-weight: 800;
+    border-radius: 8px;
+    flex-shrink: 0;
+}
+
+.product-prices {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    flex: 1;
+}
+
 .product-price {
     font-size: 1.3rem;
     font-weight: 800;
     color: var(--orange);
-    margin-top: auto;
-    padding-top: 12px;
+}
+
+.product-original-price {
+    font-size: 0.95rem;
+    color: var(--gray-400);
+    text-decoration: line-through;
+    font-weight: 600;
+}
+
+.product-offer-price {
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: var(--orange);
+    font-style: normal;
 }
 
 /* ===== BROWSE ALL LINK ===== */

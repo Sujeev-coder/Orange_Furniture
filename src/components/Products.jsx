@@ -37,7 +37,21 @@ const Products = () => {
                 <div className="product-model">Model: {product.model}</div>
                 <h3>{product.name}</h3>
                 <p>{product.description}</p>
-                <div className="product-price">₹{product.price.toLocaleString('en-IN')}</div>
+                <div className="product-pricing">
+                  {product.discount && (
+                    <div className="product-discount-badge">-{product.discount}%</div>
+                  )}
+                  <div className="product-prices">
+                    {product.offerPrice && product.discount ? (
+                      <>
+                        <span className="product-original-price">₹{product.price.toLocaleString('en-IN')}</span>
+                        <span className="product-offer-price">₹{product.offerPrice.toLocaleString('en-IN')}</span>
+                      </>
+                    ) : (
+                      <span className="product-price">₹{product.price.toLocaleString('en-IN')}</span>
+                    )}
+                  </div>
+                </div>
               </div>
             </ScrollReveal>
           ))}

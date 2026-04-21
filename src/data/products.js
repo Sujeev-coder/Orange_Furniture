@@ -7,6 +7,8 @@ export const products = [
     name: 'Premium L-Shape Recliner Sofa',
     model: 'RLS-3001',
     price: 45999,
+    discount: 20,
+    offerPrice: 36799,
     image: '/Orange Furniture Assets/Sofas/IMG_6410-Photoroom.png',
     description: 'Luxurious L-shaped sofa with individual recliner seats and premium upholstery'
   },
@@ -17,6 +19,8 @@ export const products = [
     name: 'Modern 3-Seater Fabric Sofa',
     model: 'MFS-2001',
     price: 28999,
+    discount: 20,
+    offerPrice: 23199,
     image: '/Orange Furniture Assets/Sofas/IMG_6413-Photoroom.png',
     description: 'Contemporary 3-seater sofa with quilted cushioning and durable fabric'
   },
@@ -27,6 +31,8 @@ export const products = [
     name: 'Elegant 2-Seater Sectional',
     model: 'ELS-1501',
     price: 22499,
+    discount: 20,
+    offerPrice: 17999,
     image: '/Orange Furniture Assets/Sofas/IMG_6411-Photoroom.png',
     description: 'Compact 2-seater sofa perfect for small living spaces'
   },
@@ -37,6 +43,8 @@ export const products = [
     name: 'Corner L-Shaped Comfort Sofa',
     model: 'CLS-4001',
     price: 52999,
+    discount: 20,
+    offerPrice: 42399,
     image: '/Orange Furniture Assets/Sofas/IMG_6414-Photoroom.png',
     description: 'Spacious corner sofa with comfortable seating for 5+ people'
   },
@@ -47,6 +55,8 @@ export const products = [
     name: 'Classic Gray Sofa',
     model: 'CGS-2001',
     price: 34999,
+    discount: 20,
+    offerPrice: 27999,
     image: '/Orange Furniture Assets/Sofas/IMG_6415-Photoroom.png',
     description: 'Timeless gray sofa with soft fabric upholstery'
   },
@@ -57,6 +67,8 @@ export const products = [
     name: 'Luxury Leather Sectional',
     model: 'LLS-5001',
     price: 78999,
+    discount: 25,
+    offerPrice: 59249,
     image: '/Orange Furniture Assets/Sofas/IMG_6416-Photoroom.png',
     description: 'Premium leather sectional with adjustable headrests'
   },
@@ -67,6 +79,8 @@ export const products = [
     name: 'Modern White Sofa',
     model: 'MWS-2001',
     price: 39999,
+    discount: 20,
+    offerPrice: 31999,
     image: '/Orange Furniture Assets/Sofas/IMG_6417-Photoroom.png',
     description: 'Sleek white sofa perfect for minimalist interiors'
   },
@@ -77,6 +91,8 @@ export const products = [
     name: 'Comfort Cloud Sectional',
     model: 'CCS-6001',
     price: 65999,
+    discount: 25,
+    offerPrice: 49499,
     image: '/Orange Furniture Assets/Sofas/IMG_6418-Photoroom.png',
     description: 'Extra-plush sectional with cloud-like comfort'
   },
@@ -87,6 +103,8 @@ export const products = [
     name: 'Contemporary Chaise Sofa',
     model: 'CHS-3001',
     price: 48999,
+    discount: 20,
+    offerPrice: 39199,
     image: '/Orange Furniture Assets/Sofas/IMG_6419-Photoroom.png',
     description: 'Stylish sofa with attached chaise lounge'
   },
@@ -97,6 +115,8 @@ export const products = [
     name: 'Elegant Black Sofa',
     model: 'EBS-2001',
     price: 42999,
+    discount: 20,
+    offerPrice: 34399,
     image: '/Orange Furniture Assets/Sofas/IMG_6420-Photoroom.png',
     description: 'Sophisticated black sofa with modern aesthetics'
   },
@@ -107,6 +127,8 @@ export const products = [
     name: 'Vintage Reclaimed Sofa',
     model: 'VRS-3001',
     price: 55999,
+    discount: 20,
+    offerPrice: 44799,
     image: '/Orange Furniture Assets/Sofas/IMG_6428-Photoroom.png',
     description: 'Rustic vintage-style sofa with character'
   },
@@ -117,6 +139,8 @@ export const products = [
     name: 'Beige Comfort Sofa',
     model: 'BCS-2001',
     price: 32999,
+    discount: 20,
+    offerPrice: 26399,
     image: '/Orange Furniture Assets/Sofas/IMG_6430-Photoroom.png',
     description: 'Warm beige sofa for cozy living spaces'
   },
@@ -127,6 +151,8 @@ export const products = [
     name: 'Modern Teal Sectional',
     model: 'MTS-4001',
     price: 59999,
+    discount: 25,
+    offerPrice: 44999,
     image: '/Orange Furniture Assets/Sofas/IMG_6431-Photoroom.png',
     description: 'Eye-catching teal colored sectional'
   },
@@ -137,6 +163,8 @@ export const products = [
     name: 'Premium Fabric Sofa',
     model: 'PFS-2001',
     price: 38999,
+    discount: 20,
+    offerPrice: 31199,
     image: '/Orange Furniture Assets/Sofas/IMG_6432-Photoroom.png',
     description: 'High-quality fabric sofa with excellent durability'
   },
@@ -147,6 +175,8 @@ export const products = [
     name: 'Luxury Reclining Sectional',
     model: 'LRS-5001',
     price: 89999,
+    discount: 30,
+    offerPrice: 62999,
     image: '/Orange Furniture Assets/Sofas/IMG_6433-Photoroom.png',
     description: 'Full reclining sectional for ultimate comfort'
   },
@@ -157,6 +187,8 @@ export const products = [
     name: 'Stylish Gray Sectional',
     model: 'SGS-4001',
     price: 62999,
+    discount: 25,
+    offerPrice: 47249,
     image: '/Orange Furniture Assets/Sofas/IMG_6434-Photoroom.png',
     description: 'Modern gray sectional with clean lines'
   },
@@ -167,6 +199,8 @@ export const products = [
     name: 'Compact Studio Sofa',
     model: 'CSS-1501',
     price: 24999,
+    discount: 15,
+    offerPrice: 21249,
     image: '/Orange Furniture Assets/Sofas/IMG_6435-Photoroom.png',
     description: 'Perfect for studio apartments and small rooms'
   },
@@ -177,6 +211,8 @@ export const products = [
     name: 'Premium Sectional Lounge',
     model: 'PSL-6001',
     price: 75999,
+    discount: 25,
+    offerPrice: 56999,
     image: '/Orange Furniture Assets/Sofas/IMG_6436-Photoroom.png',
     description: 'Expansive sectional with lounging area'
   },
@@ -187,6 +223,8 @@ export const products = [
     name: 'Modern U-Shape Sofa',
     model: 'MUS-5001',
     price: 72999,
+    discount: 25,
+    offerPrice: 54749,
     image: '/Orange Furniture Assets/Sofas/IMG_6437-Photoroom.png',
     description: 'U-shaped sofa perfect for family gatherings'
   },
@@ -197,6 +235,8 @@ export const products = [
     name: 'Cream Suede Sofa',
     model: 'CSS-2001',
     price: 46999,
+    discount: 20,
+    offerPrice: 37599,
     image: '/Orange Furniture Assets/Sofas/20260420_143940.jpg-Photoroom.png',
     description: 'Luxurious cream suede sofa'
   },
@@ -207,6 +247,8 @@ export const products = [
     name: 'Navy Blue Sofa',
     model: 'NBS-2001',
     price: 41999,
+    discount: 20,
+    offerPrice: 33599,
     image: '/Orange Furniture Assets/Sofas/20260420_144026.jpg-Photoroom.png',
     description: 'Rich navy blue sofa with elegant design'
   },
@@ -217,6 +259,8 @@ export const products = [
     name: 'Emerald Green Sectional',
     model: 'EGS-4001',
     price: 64999,
+    discount: 25,
+    offerPrice: 48749,
     image: '/Orange Furniture Assets/Sofas/20260420_144106.jpg-Photoroom.png',
     description: 'Luxurious emerald green colored sectional'
   },
@@ -227,6 +271,8 @@ export const products = [
     name: 'Charcoal Fabric Sofa',
     model: 'CFS-2001',
     price: 35999,
+    discount: 20,
+    offerPrice: 28799,
     image: '/Orange Furniture Assets/Sofas/20260420_144116.jpg-Photoroom.png',
     description: 'Durable charcoal fabric sofa for modern homes'
   },
@@ -237,6 +283,8 @@ export const products = [
     name: 'Burgundy Recliner Sofa',
     model: 'BRS-3001',
     price: 52999,
+    discount: 20,
+    offerPrice: 42399,
     image: '/Orange Furniture Assets/Sofas/20260420_145140.jpg-Photoroom.png',
     description: 'Deep burgundy reclining sofa'
   },
@@ -247,6 +295,8 @@ export const products = [
     name: 'Multi-Tone Fabric Sofa',
     model: 'MFS-2501',
     price: 44999,
+    discount: 20,
+    offerPrice: 35999,
     image: '/Orange Furniture Assets/Sofas/IMG_6380-Photoroom.png',
     description: 'Fashionable multi-tone fabric sofa'
   },
@@ -257,6 +307,8 @@ export const products = [
     name: 'Leather Look Sofa',
     model: 'LLS-2001',
     price: 39999,
+    discount: 20,
+    offerPrice: 31999,
     image: '/Orange Furniture Assets/Sofas/IMG_6381-Photoroom.png',
     description: 'Sophisticated leather-look upholstered sofa'
   },
@@ -267,6 +319,8 @@ export const products = [
     name: 'Quilted Pattern Sofa',
     model: 'QPS-2001',
     price: 37999,
+    discount: 20,
+    offerPrice: 30399,
     image: '/Orange Furniture Assets/Sofas/IMG_6382-Photoroom.png',
     description: 'Stylish sofa with quilted detailing'
   },
@@ -277,6 +331,8 @@ export const products = [
     name: 'Executive Lounge Sofa',
     model: 'ELS-3501',
     price: 68999,
+    discount: 25,
+    offerPrice: 51749,
     image: '/Orange Furniture Assets/Sofas/IMG_6412-Photoroom.png',
     description: 'Premium lounge sofa for executive areas'
   },
@@ -286,9 +342,11 @@ export const products = [
     id: 29,
     categoryId: 2,
     category: 'Chairs',
-    name: 'Crystal Clear Acrylic Chair',
+    name: 'Acrylic Chair',
     model: 'CAC-1001',
-    price: 8999,
+    price: 4800,
+    discount: 15,
+    offerPrice: 4080,
     image: '/Orange Furniture Assets/Chairs/IMG_6383-Photoroom.png',
     description: 'Modern transparent acrylic chair with elegant round backrest'
   },
@@ -299,6 +357,8 @@ export const products = [
     name: 'Aluminum Wood Dining Chair',
     model: 'AWD-2001',
     price: 6499,
+    discount: 15,
+    offerPrice: 5524,
     image: '/Orange Furniture Assets/Chairs/IMG_6384-Photoroom.png',
     description: 'Durable aluminum frame chair with wooden seat - perfect for outdoor dining'
   },
@@ -309,6 +369,8 @@ export const products = [
     name: 'Premium Accent Chair',
     model: 'PAC-1501',
     price: 12999,
+    discount: 15,
+    offerPrice: 11049,
     image: '/Orange Furniture Assets/Chairs/IMG_6390-Photoroom.png',
     description: 'Stylish accent chair with cushioned seating and modern design'
   },
@@ -319,6 +381,8 @@ export const products = [
     name: 'Executive Leather Chair',
     model: 'ELC-3001',
     price: 18999,
+    discount: 20,
+    offerPrice: 15199,
     image: '/Orange Furniture Assets/Chairs/IMG_6391-Photoroom.png',
     description: 'Premium leather office chair with ergonomic support'
   },
@@ -329,6 +393,8 @@ export const products = [
     name: 'Modern Dining Chair',
     model: 'MDC-1001',
     price: 5999,
+    discount: 15,
+    offerPrice: 5099,
     image: '/Orange Furniture Assets/Chairs/IMG_6387-Photoroom.png',
     description: 'Sleek modern chair perfect for contemporary dining rooms'
   },
@@ -339,6 +405,8 @@ export const products = [
     name: 'Comfort Wing Chair',
     model: 'CWC-2001',
     price: 14999,
+    discount: 15,
+    offerPrice: 12749,
     image: '/Orange Furniture Assets/Chairs/IMG_6389-Photoroom.png',
     description: 'Classic wing chair with high back support'
   },
@@ -349,6 +417,8 @@ export const products = [
     name: 'Metal Frame Chair',
     model: 'MFC-1001',
     price: 7499,
+    discount: 15,
+    offerPrice: 6374,
     image: '/Orange Furniture Assets/Chairs/IMG_6406-Photoroom.png',
     description: 'Industrial style chair with metal frame'
   },
@@ -359,6 +429,8 @@ export const products = [
     name: 'Cushioned Office Chair',
     model: 'COC-2001',
     price: 11999,
+    discount: 15,
+    offerPrice: 10199,
     image: '/Orange Furniture Assets/Chairs/IMG_6408-Photoroom.png',
     description: 'Ergonomic cushioned office chair for work comfort'
   },
@@ -369,6 +441,8 @@ export const products = [
     name: 'Swivel Desk Chair',
     model: 'SDC-1001',
     price: 9999,
+    discount: 15,
+    offerPrice: 8499,
     image: '/Orange Furniture Assets/Chairs/IMG_6409-Photoroom.png',
     description: 'Adjustable swivel chair perfect for desks'
   },
@@ -381,6 +455,8 @@ export const products = [
     name: 'Marble Top Dining Set 6-Seater',
     model: 'MDT-6001',
     price: 65999,
+    discount: 25,
+    offerPrice: 49499,
     image: '/Orange Furniture Assets/Dining/IMG_6368-Photoroom.png',
     description: 'Elegant marble top dining table with 6 upholstered chairs'
   },
@@ -391,6 +467,8 @@ export const products = [
     name: 'Glass Top Dining Table 4-Seater',
     model: 'GDT-4001',
     price: 34999,
+    discount: 20,
+    offerPrice: 27999,
     image: '/Orange Furniture Assets/Dining/IMG_6369-Photoroom.png',
     description: 'Modern glass top dining table with sleek metal frame and 4 chairs'
   },
@@ -401,6 +479,8 @@ export const products = [
     name: 'Wooden Dining Set 6-Seater',
     model: 'WDT-6001',
     price: 48999,
+    discount: 25,
+    offerPrice: 36749,
     image: '/Orange Furniture Assets/Dining/IMG_6370-Photoroom.png',
     description: 'Traditional wooden dining set with carved details'
   },
@@ -411,6 +491,8 @@ export const products = [
     name: 'Contemporary Extendable Dining Table',
     model: 'CED-8001',
     price: 72999,
+    discount: 30,
+    offerPrice: 51099,
     image: '/Orange Furniture Assets/Dining/IMG_6392-Photoroom.png',
     description: 'Extendable dining table perfect for entertaining guests'
   },
@@ -421,6 +503,8 @@ export const products = [
     name: 'Minimalist Dining Table',
     model: 'MDT-4001',
     price: 28999,
+    discount: 20,
+    offerPrice: 23199,
     image: '/Orange Furniture Assets/Dining/20260420_144233.jpg-Photoroom (1).png',
     description: 'Clean lines minimalist dining table'
   },
@@ -431,6 +515,8 @@ export const products = [
     name: 'Rustic Farm Dining Table',
     model: 'RFT-6001',
     price: 52999,
+    discount: 25,
+    offerPrice: 39749,
     image: '/Orange Furniture Assets/Dining/20260420_144244.jpg-Photoroom.png',
     description: 'Charming rustic farm-style dining table'
   },
@@ -441,6 +527,8 @@ export const products = [
     name: 'Industrial Dining Set',
     model: 'IDS-6001',
     price: 58999,
+    discount: 25,
+    offerPrice: 44249,
     image: '/Orange Furniture Assets/Dining/20260420_144255.jpg-Photoroom.png',
     description: 'Industrial style dining set with metal accents'
   },
@@ -451,6 +539,8 @@ export const products = [
     name: 'Scandinavian Dining Table',
     model: 'SDT-4001',
     price: 42999,
+    discount: 20,
+    offerPrice: 34399,
     image: '/Orange Furniture Assets/Dining/20260420_144311.jpg-Photoroom.png',
     description: 'Nordic style minimalist dining table'
   },
@@ -461,6 +551,8 @@ export const products = [
     name: 'Luxury Glass Dining Set',
     model: 'LGD-6001',
     price: 84999,
+    discount: 30,
+    offerPrice: 59499,
     image: '/Orange Furniture Assets/Dining/20260420_144324.jpg-Photoroom.png',
     description: 'Premium glass dining set with leather chairs'
   },
@@ -471,6 +563,8 @@ export const products = [
     name: 'Round Pedestal Dining Table',
     model: 'RPD-4001',
     price: 39999,
+    discount: 20,
+    offerPrice: 31999,
     image: '/Orange Furniture Assets/Dining/20260420_144345.jpg-Photoroom.png',
     description: 'Classic round pedestal dining table'
   },
@@ -481,6 +575,8 @@ export const products = [
     name: 'Modern White Dining Set',
     model: 'MWD-6001',
     price: 61999,
+    discount: 25,
+    offerPrice: 46499,
     image: '/Orange Furniture Assets/Dining/20260420_144402.jpg-Photoroom.png',
     description: 'Contemporary white dining set'
   },
@@ -491,6 +587,8 @@ export const products = [
     name: 'Natural Wood Dining Table',
     model: 'NWD-6001',
     price: 54999,
+    discount: 25,
+    offerPrice: 41249,
     image: '/Orange Furniture Assets/Dining/20260420_144417.jpg-Photoroom.png',
     description: 'Beautiful natural wood dining table'
   },
@@ -501,6 +599,8 @@ export const products = [
     name: 'Marble Glass Hybrid Table',
     model: 'MGH-4001',
     price: 67999,
+    discount: 30,
+    offerPrice: 47599,
     image: '/Orange Furniture Assets/Dining/20260420_144435.jpg-Photoroom.png',
     description: 'Unique marble and glass hybrid dining table'
   },
@@ -511,6 +611,8 @@ export const products = [
     name: 'Rectangular Formal Dining Set',
     model: 'RFD-8001',
     price: 89999,
+    discount: 30,
+    offerPrice: 62999,
     image: '/Orange Furniture Assets/Dining/20260420_144448.jpg-Photoroom.png',
     description: 'Elegant rectangular dining set for formal occasions'
   },
@@ -521,6 +623,8 @@ export const products = [
     name: 'Space-Saving Fold Table',
     model: 'SSF-4001',
     price: 19999,
+    discount: 15,
+    offerPrice: 16999,
     image: '/Orange Furniture Assets/Dining/20260420_144511.jpg-Photoroom.png',
     description: 'Practical folding dining table for small spaces'
   },
@@ -531,6 +635,8 @@ export const products = [
     name: 'Luxury Dining Chairs Set',
     model: 'LDC-6001',
     price: 44999,
+    discount: 20,
+    offerPrice: 35999,
     image: '/Orange Furniture Assets/Dining/20260420_144546.jpg-Photoroom.png',
     description: 'Set of 6 luxury upholstered dining chairs'
   },
@@ -541,6 +647,8 @@ export const products = [
     name: 'Vintage Style Dining Set',
     model: 'VSD-6001',
     price: 57999,
+    discount: 25,
+    offerPrice: 43499,
     image: '/Orange Furniture Assets/Dining/20260420_144624.jpg-Photoroom.png',
     description: 'Charming vintage-inspired dining set'
   },
@@ -551,6 +659,8 @@ export const products = [
     name: 'Teak Wood Dining Table',
     model: 'TWD-6001',
     price: 71999,
+    discount: 30,
+    offerPrice: 50399,
     image: '/Orange Furniture Assets/Dining/20260420_144653.jpg-Photoroom.png',
     description: 'Premium teak wood dining table'
   },
@@ -561,6 +671,8 @@ export const products = [
     name: 'Modern Black Dining Set',
     model: 'MBD-6001',
     price: 63999,
+    discount: 25,
+    offerPrice: 47999,
     image: '/Orange Furniture Assets/Dining/20260420_144709.jpg-Photoroom.png',
     description: 'Sleek black modern dining set'
   },
@@ -571,6 +683,8 @@ export const products = [
     name: 'Compact Family Dining Table',
     model: 'CFD-5001',
     price: 35999,
+    discount: 20,
+    offerPrice: 28799,
     image: '/Orange Furniture Assets/Dining/20260420_144734.jpg-Photoroom.png',
     description: 'Perfect size dining table for families'
   },
@@ -581,6 +695,8 @@ export const products = [
     name: 'Oak Wood Dining Set',
     model: 'OWD-4001',
     price: 46999,
+    discount: 20,
+    offerPrice: 37599,
     image: '/Orange Furniture Assets/Dining/20260420_144750.jpg-Photoroom.png',
     description: 'Solid oak wood dining set'
   },
@@ -591,6 +707,8 @@ export const products = [
     name: 'Chrome Leg Dining Table',
     model: 'CLD-4001',
     price: 41999,
+    discount: 20,
+    offerPrice: 33599,
     image: '/Orange Furniture Assets/Dining/20260420_144810.jpg-Photoroom.png',
     description: 'Modern dining table with chrome legs'
   },
@@ -601,6 +719,8 @@ export const products = [
     name: 'Walnut Finish Dining Set',
     model: 'WFD-6001',
     price: 59999,
+    discount: 25,
+    offerPrice: 44999,
     image: '/Orange Furniture Assets/Dining/IMG_6372-Photoroom.png',
     description: 'Rich walnut finish dining set'
   },
@@ -611,6 +731,8 @@ export const products = [
     name: 'Counter Height Dining Table',
     model: 'CHD-4001',
     price: 48999,
+    discount: 20,
+    offerPrice: 39199,
     image: '/Orange Furniture Assets/Dining/IMG_6395-Photoroom.png',
     description: 'Trendy counter height dining table'
   },
@@ -621,6 +743,8 @@ export const products = [
     name: 'Glass Pedestal Dining Table',
     model: 'GPD-4001',
     price: 44999,
+    discount: 20,
+    offerPrice: 35999,
     image: '/Orange Furniture Assets/Dining/IMG_6396-Photoroom.png',
     description: 'Elegant glass pedestal dining table'
   },
@@ -631,6 +755,8 @@ export const products = [
     name: 'Bent Wood Dining Chairs',
     model: 'BWC-6001',
     price: 32999,
+    discount: 15,
+    offerPrice: 28049,
     image: '/Orange Furniture Assets/Dining/IMG_6398-Photoroom.png',
     description: 'Classic bent wood dining chairs'
   },
@@ -641,6 +767,8 @@ export const products = [
     name: 'Upholstered Bench Seating',
     model: 'UBS-1001',
     price: 22999,
+    discount: 15,
+    offerPrice: 19549,
     image: '/Orange Furniture Assets/Dining/IMG_6399-Photoroom.png',
     description: 'Comfortable upholstered dining bench'
   },
@@ -651,6 +779,8 @@ export const products = [
     name: 'Metal Frame Dining Table',
     model: 'MFD-4001',
     price: 37999,
+    discount: 20,
+    offerPrice: 30399,
     image: '/Orange Furniture Assets/Dining/IMG_6400-Photoroom.png',
     description: 'Industrial metal frame dining table'
   },
@@ -661,6 +791,8 @@ export const products = [
     name: 'Ceramic Top Dining Table',
     model: 'CTD-4001',
     price: 51999,
+    discount: 25,
+    offerPrice: 38999,
     image: '/Orange Furniture Assets/Dining/IMG_6402-Photoroom.png',
     description: 'Durable ceramic top dining table'
   },
@@ -673,6 +805,8 @@ export const products = [
     name: 'Black Standing Mirror Tea Table',
     model: 'BSM-1001',
     price: 15999,
+    discount: 15,
+    offerPrice: 13599,
     image: '/Orange Furniture Assets/tea tables/IMG_6374-Photoroom.png',
     description: 'Elegant black frame mirror with integrated storage compartment'
   },
@@ -683,6 +817,8 @@ export const products = [
     name: 'Modern Stone Top Coffee Table',
     model: 'MSC-2001',
     price: 11999,
+    discount: 15,
+    offerPrice: 10199,
     image: '/Orange Furniture Assets/tea tables/IMG_6376-Photoroom.png',
     description: 'Minimalist stone top coffee table with wooden legs'
   },
@@ -693,6 +829,8 @@ export const products = [
     name: 'Glass Tiered Tea Table',
     model: 'GTT-1501',
     price: 9499,
+    discount: 10,
+    offerPrice: 8549,
     image: '/Orange Furniture Assets/tea tables/IMG_6378-Photoroom.png',
     description: 'Contemporary tiered glass tea table - perfect for small spaces'
   },
@@ -703,6 +841,8 @@ export const products = [
     name: 'Marble Modern Coffee Table',
     model: 'MMC-2001',
     price: 17999,
+    discount: 15,
+    offerPrice: 15299,
     image: '/Orange Furniture Assets/tea tables/IMG_6393-Photoroom.png',
     description: 'Sophisticated marble coffee table with metallic accents'
   },
@@ -713,6 +853,8 @@ export const products = [
     name: 'Wooden Tea Table',
     model: 'WTT-1001',
     price: 8999,
+    discount: 10,
+    offerPrice: 8099,
     image: '/Orange Furniture Assets/tea tables/IMG_6394-Photoroom.png',
     description: 'Warm wooden tea table with natural finish'
   },
@@ -723,6 +865,8 @@ export const products = [
     name: 'Metal Base Tea Table',
     model: 'MBT-1001',
     price: 12999,
+    discount: 15,
+    offerPrice: 11049,
     image: '/Orange Furniture Assets/tea tables/IMG_6404-Photoroom.png',
     description: 'Industrial style table with metal base'
   },
@@ -733,6 +877,8 @@ export const products = [
     name: 'Nesting Coffee Tables',
     model: 'NCT-2001',
     price: 13999,
+    discount: 15,
+    offerPrice: 11899,
     image: '/Orange Furniture Assets/tea tables/IMG_6405-Photoroom.png',
     description: 'Space-saving nesting coffee tables set'
   },
@@ -743,6 +889,8 @@ export const products = [
     name: 'Chrome Leg Coffee Table',
     model: 'CLC-1001',
     price: 10999,
+    discount: 10,
+    offerPrice: 9899,
     image: '/Orange Furniture Assets/tea tables/IMG_6424-Photoroom.png',
     description: 'Modern coffee table with chrome legs'
   },
@@ -753,6 +901,8 @@ export const products = [
     name: 'Ottoman Style Tea Table',
     model: 'OST-1001',
     price: 14999,
+    discount: 15,
+    offerPrice: 12749,
     image: '/Orange Furniture Assets/tea tables/IMG_6439-Photoroom.png',
     description: 'Versatile ottoman style tea table'
   },
@@ -765,6 +915,8 @@ export const products = [
     name: 'Two-Tone Storage Cabinet',
     model: 'TSC-1001',
     price: 19999,
+    discount: 20,
+    offerPrice: 15999,
     image: '/Orange Furniture Assets/Cupboards/IMG_6401-Photoroom.png',
     description: 'Spacious white and black storage cabinet with double doors'
   },
@@ -775,6 +927,8 @@ export const products = [
     name: 'Premium Steel Wardrobe',
     model: 'PSW-2001',
     price: 34999,
+    discount: 25,
+    offerPrice: 26249,
     image: '/Orange Furniture Assets/Cupboards/IMG_6423-Photoroom.png',
     description: 'Tall steel cabinet with secure locking mechanism - ideal for office storage'
   },
@@ -785,6 +939,8 @@ export const products = [
     name: 'Classic Wooden Almirah',
     model: 'CWA-3001',
     price: 24999,
+    discount: 20,
+    offerPrice: 19999,
     image: '/Orange Furniture Assets/Cupboards/IMG_6426-Photoroom.png',
     description: 'Traditional wooden wardrobe with brass handles and spacious compartments'
   },
@@ -795,6 +951,8 @@ export const products = [
     name: 'Minimalist White Cabinet',
     model: 'MWC-1001',
     price: 17999,
+    discount: 20,
+    offerPrice: 14399,
     image: '/Orange Furniture Assets/Cupboards/IMG_6380-Photoroom.png',
     description: 'Clean minimalist white storage cabinet'
   },
@@ -805,6 +963,8 @@ export const products = [
     name: 'Black Modern Cabinet',
     model: 'BMC-1001',
     price: 21999,
+    discount: 20,
+    offerPrice: 17599,
     image: '/Orange Furniture Assets/Cupboards/IMG_6381-Photoroom.png',
     description: 'Sleek black modern cupboard'
   },
@@ -815,6 +975,8 @@ export const products = [
     name: 'Tall Shelving Unit',
     model: 'TSU-2001',
     price: 28999,
+    discount: 25,
+    offerPrice: 21749,
     image: '/Orange Furniture Assets/Cupboards/IMG_6382-Photoroom.png',
     description: 'Tall shelving unit for maximum storage'
   },
@@ -825,6 +987,8 @@ export const products = [
     name: 'Display Cabinet',
     model: 'DCB-1001',
     price: 26999,
+    discount: 20,
+    offerPrice: 21599,
     image: '/Orange Furniture Assets/Cupboards/IMG_6414-Photoroom.png',
     description: 'Glass fronted display cabinet for showcasing items'
   },
@@ -835,6 +999,8 @@ export const products = [
     name: 'Open Shelving Cabinet',
     model: 'OSC-1001',
     price: 15999,
+    discount: 15,
+    offerPrice: 13599,
     image: '/Orange Furniture Assets/Cupboards/IMG_6415-Photoroom.png',
     description: 'Open shelving design for easy access'
   },
@@ -845,6 +1011,8 @@ export const products = [
     name: 'Corner Storage Cabinet',
     model: 'CSC-1001',
     price: 22999,
+    discount: 20,
+    offerPrice: 18399,
     image: '/Orange Furniture Assets/Cupboards/IMG_6416-Photoroom.png',
     description: 'Efficient corner storage cabinet'
   },
@@ -855,6 +1023,8 @@ export const products = [
     name: 'Sliding Door Wardrobe',
     model: 'SDW-2001',
     price: 38999,
+    discount: 25,
+    offerPrice: 29249,
     image: '/Orange Furniture Assets/Cupboards/IMG_6417-Photoroom.png',
     description: 'Modern sliding door wardrobe'
   },
@@ -865,6 +1035,8 @@ export const products = [
     name: 'Rustic Wood Cabinet',
     model: 'RWC-1001',
     price: 31999,
+    discount: 20,
+    offerPrice: 25599,
     image: '/Orange Furniture Assets/Cupboards/IMG_6418-Photoroom.png',
     description: 'Rustic style wooden cabinet'
   },
@@ -875,6 +1047,8 @@ export const products = [
     name: 'Metal Storage Locker',
     model: 'MSL-1001',
     price: 23999,
+    discount: 20,
+    offerPrice: 19199,
     image: '/Orange Furniture Assets/Cupboards/IMG_6419-Photoroom.png',
     description: 'Industrial metal storage locker'
   },
@@ -885,6 +1059,8 @@ export const products = [
     name: 'Painted Wooden Cabinet',
     model: 'PWC-1001',
     price: 25999,
+    discount: 20,
+    offerPrice: 20799,
     image: '/Orange Furniture Assets/Cupboards/IMG_6420-Photoroom.png',
     description: 'Beautifully painted wooden storage cabinet'
   },
@@ -895,6 +1071,8 @@ export const products = [
     name: 'Wall-Mounted Cabinet',
     model: 'WMC-1001',
     price: 14999,
+    discount: 15,
+    offerPrice: 12749,
     image: '/Orange Furniture Assets/Cupboards/IMG_6430-Photoroom.png',
     description: 'Space-saving wall-mounted cabinet'
   },
@@ -905,6 +1083,8 @@ export const products = [
     name: 'Glass Door Cabinet',
     model: 'GDC-1001',
     price: 29999,
+    discount: 20,
+    offerPrice: 23999,
     image: '/Orange Furniture Assets/Cupboards/IMG_6431-Photoroom.png',
     description: 'Elegant cabinet with glass doors'
   },
@@ -915,6 +1095,8 @@ export const products = [
     name: 'Wardrobe with Mirror',
     model: 'WWM-2001',
     price: 35999,
+    discount: 25,
+    offerPrice: 26999,
     image: '/Orange Furniture Assets/Cupboards/IMG_6432-Photoroom.png',
     description: 'Wardrobe with integrated mirror'
   },
@@ -925,6 +1107,8 @@ export const products = [
     name: 'Multi-Drawer Cabinet',
     model: 'MDC-1001',
     price: 27999,
+    discount: 20,
+    offerPrice: 22399,
     image: '/Orange Furniture Assets/Cupboards/IMG_6433-Photoroom.png',
     description: 'Cabinet with multiple drawers for organization'
   },
@@ -935,6 +1119,8 @@ export const products = [
     name: 'Tall Narrow Cabinet',
     model: 'TNC-1001',
     price: 19999,
+    discount: 15,
+    offerPrice: 16999,
     image: '/Orange Furniture Assets/Cupboards/IMG_6434-Photoroom.png',
     description: 'Tall narrow cabinet for compact spaces'
   },
@@ -947,6 +1133,8 @@ export const products = [
     name: 'Executive Desk',
     model: 'ED-2001',
     price: 28999,
+    discount: 20,
+    offerPrice: 23199,
     image: '/Orange Furniture Assets/Office tables/20260420_144955.jpg-Photoroom.png',
     description: 'Professional executive desk with storage'
   },
@@ -957,6 +1145,8 @@ export const products = [
     name: 'Modern Work Table',
     model: 'MWT-1001',
     price: 19999,
+    discount: 15,
+    offerPrice: 16999,
     image: '/Orange Furniture Assets/Office tables/20260420_145018.jpg-Photoroom.png',
     description: 'Contemporary work table for home office'
   },
@@ -967,6 +1157,8 @@ export const products = [
     name: 'Glass Top Desk',
     model: 'GTD-1001',
     price: 24999,
+    discount: 20,
+    offerPrice: 19999,
     image: '/Orange Furniture Assets/Office tables/20260420_145025.jpg-Photoroom.png',
     description: 'Minimalist glass top office desk'
   },
@@ -977,6 +1169,8 @@ export const products = [
     name: 'Wooden Office Desk',
     model: 'WOD-2001',
     price: 22999,
+    discount: 15,
+    offerPrice: 19549,
     image: '/Orange Furniture Assets/Office tables/20260420_145043.jpg-Photoroom.png',
     description: 'Classic wooden office desk'
   },
@@ -987,6 +1181,8 @@ export const products = [
     name: 'Computer Workstation',
     model: 'CW-1001',
     price: 17999,
+    discount: 15,
+    offerPrice: 15299,
     image: '/Orange Furniture Assets/Office tables/IMG_6430-Photoroom.png',
     description: 'Spacious computer workstation desk'
   },
@@ -997,6 +1193,8 @@ export const products = [
     name: 'L-Shaped Office Desk',
     model: 'LOD-3001',
     price: 31999,
+    discount: 20,
+    offerPrice: 25599,
     image: '/Orange Furniture Assets/Office tables/IMG_6431-Photoroom.png',
     description: 'L-shaped desk for corner office spaces'
   },
@@ -1007,6 +1205,8 @@ export const products = [
     name: 'Adjustable Height Desk',
     model: 'AHD-2001',
     price: 35999,
+    discount: 25,
+    offerPrice: 26999,
     image: '/Orange Furniture Assets/Office tables/IMG_6432-Photoroom.png',
     description: 'Ergonomic adjustable height desk'
   },
@@ -1017,6 +1217,8 @@ export const products = [
     name: 'Compact Home Desk',
     model: 'CHD-1001',
     price: 15999,
+    discount: 15,
+    offerPrice: 13599,
     image: '/Orange Furniture Assets/Office tables/IMG_6433-Photoroom.png',
     description: 'Space-saving compact desk'
   },
@@ -1027,6 +1229,8 @@ export const products = [
     name: 'Metal Frame Desk',
     model: 'MFD-1001',
     price: 21999,
+    discount: 20,
+    offerPrice: 17599,
     image: '/Orange Furniture Assets/Office tables/IMG_6434-Photoroom.png',
     description: 'Industrial metal frame office desk'
   },
@@ -1037,6 +1241,8 @@ export const products = [
     name: 'Floating Wall Desk',
     model: 'FWD-1001',
     price: 18999,
+    discount: 15,
+    offerPrice: 16149,
     image: '/Orange Furniture Assets/Office tables/IMG_6435-Photoroom.png',
     description: 'Space-efficient floating wall desk'
   },
@@ -1047,6 +1253,8 @@ export const products = [
     name: 'Conference Table',
     model: 'CT-6001',
     price: 42999,
+    discount: 25,
+    offerPrice: 32249,
     image: '/Orange Furniture Assets/Office tables/IMG_6436-Photoroom.png',
     description: 'Large conference table for meetings'
   },
@@ -1059,6 +1267,8 @@ export const products = [
     name: 'Bookshelf Unit',
     model: 'BU-2001',
     price: 16999,
+    discount: 15,
+    offerPrice: 14449,
     image: '/Orange Furniture Assets/Others/IMG_6380-Photoroom.png',
     description: 'Tall bookshelf unit for book storage'
   },
@@ -1069,6 +1279,8 @@ export const products = [
     name: 'Decorative Sideboard',
     model: 'DS-1001',
     price: 21999,
+    discount: 20,
+    offerPrice: 17599,
     image: '/Orange Furniture Assets/Others/IMG_6381-Photoroom.png',
     description: 'Elegant decorative sideboard'
   },
@@ -1079,6 +1291,8 @@ export const products = [
     name: 'Storage Bench',
     model: 'SB-1001',
     price: 14999,
+    discount: 15,
+    offerPrice: 12749,
     image: '/Orange Furniture Assets/Others/IMG_6382-Photoroom.png',
     description: 'Multipurpose storage bench'
   },
@@ -1089,6 +1303,8 @@ export const products = [
     name: 'TV Stand',
     model: 'TS-2001',
     price: 13999,
+    discount: 15,
+    offerPrice: 11899,
     image: '/Orange Furniture Assets/Others/IMG_6412-Photoroom.png',
     description: 'Modern TV stand with storage'
   },
@@ -1099,6 +1315,8 @@ export const products = [
     name: 'Bar Counter',
     model: 'BC-1001',
     price: 26999,
+    discount: 20,
+    offerPrice: 21599,
     image: '/Orange Furniture Assets/Others/IMG_6413-Photoroom.png',
     description: 'Stylish home bar counter'
   },
@@ -1109,6 +1327,8 @@ export const products = [
     name: 'Shoe Rack',
     model: 'SR-1001',
     price: 8999,
+    discount: 10,
+    offerPrice: 8099,
     image: '/Orange Furniture Assets/Others/IMG_6414-Photoroom.png',
     description: 'Practical shoe storage rack'
   },
@@ -1119,6 +1339,8 @@ export const products = [
     name: 'Console Table',
     model: 'CT-1001',
     price: 12999,
+    discount: 15,
+    offerPrice: 11049,
     image: '/Orange Furniture Assets/Others/IMG_6415-Photoroom.png',
     description: 'Sleek console table for entryways'
   },
@@ -1129,6 +1351,8 @@ export const products = [
     name: 'Wall Mounted Shelves',
     model: 'WMS-1001',
     price: 9999,
+    discount: 10,
+    offerPrice: 8999,
     image: '/Orange Furniture Assets/Others/IMG_6416-Photoroom.png',
     description: 'Modern wall-mounted floating shelves'
   },
@@ -1139,6 +1363,8 @@ export const products = [
     name: 'Coat Rack Stand',
     model: 'CRS-1001',
     price: 7999,
+    discount: 10,
+    offerPrice: 7199,
     image: '/Orange Furniture Assets/Others/IMG_6417-Photoroom.png',
     description: 'Elegant coat rack stand'
   },
@@ -1149,6 +1375,8 @@ export const products = [
     name: 'Magazine Holder',
     model: 'MH-1001',
     price: 4999,
+    discount: 10,
+    offerPrice: 4499,
     image: '/Orange Furniture Assets/Others/IMG_6418-Photoroom.png',
     description: 'Stylish magazine and book holder'
   },
@@ -1159,6 +1387,8 @@ export const products = [
     name: 'Plant Stand',
     model: 'PS-1001',
     price: 6999,
+    discount: 10,
+    offerPrice: 6299,
     image: '/Orange Furniture Assets/Others/IMG_6419-Photoroom.png',
     description: 'Decorative plant stand'
   },
@@ -1169,6 +1399,8 @@ export const products = [
     name: 'Mirror Frame',
     model: 'MF-1001',
     price: 11999,
+    discount: 15,
+    offerPrice: 10199,
     image: '/Orange Furniture Assets/Others/IMG_6420-Photoroom.png',
     description: 'Decorative mirror frame for walls'
   }
