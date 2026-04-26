@@ -74,8 +74,7 @@ const Navbar = () => {
     <nav className={`navbar ${scrolled || !isHomePage ? 'scrolled' : ''}`} id="navbar">
       <div className="container nav-container">
         <Link to="/" className="nav-logo" onClick={closeMenu}>
-          <span className="logo-icon">🟠</span>
-          <span className="logo-text">Orange<span className="logo-accent">Furniture</span></span>
+          <img src="/Orange Furniture Assets/Logo/Orange Furniture Logo.jpg" alt="Orange Furniture Logo" className="logo-img" />
         </Link>
         <ul className={`nav-links ${menuOpen ? 'open' : ''}`} id="navLinks">
           <li>

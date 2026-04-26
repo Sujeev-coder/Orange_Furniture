@@ -181,6 +181,11 @@ ul { list-style: none; }
     font-weight: 800;
     z-index: 10;
 }
+.logo-img {
+    height: 50px;
+    width: auto;
+    object-fit: contain;
+}
 .logo-icon { font-size: 1.4rem; }
 .logo-text { color: var(--charcoal); }
 .logo-accent { color: var(--orange); }
