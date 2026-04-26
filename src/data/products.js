@@ -13,18 +13,6 @@ export const products = [
     description: 'Luxurious L-shaped sofa with individual recliner seats and premium upholstery'
   },
   {
-    id: 2,
-    categoryId: 1,
-    category: 'Sofas',
-    name: 'Modern 3-Seater Fabric Sofa',
-    model: 'MFS-2001',
-    price: 28999,
-    discount: 20,
-    offerPrice: 23199,
-    image: '/Orange Furniture Assets/Sofas/IMG_6413-Photoroom.png',
-    description: 'Contemporary 3-seater sofa with quilted cushioning and durable fabric'
-  },
-  {
     id: 3,
     categoryId: 1,
     category: 'Sofas',
@@ -37,90 +25,6 @@ export const products = [
     description: 'Compact 2-seater sofa perfect for small living spaces'
   },
   {
-    id: 4,
-    categoryId: 1,
-    category: 'Sofas',
-    name: 'Corner L-Shaped Comfort Sofa',
-    model: 'CLS-4001',
-    price: 52999,
-    discount: 20,
-    offerPrice: 42399,
-    image: '/Orange Furniture Assets/Sofas/IMG_6414-Photoroom.png',
-    description: 'Spacious corner sofa with comfortable seating for 5+ people'
-  },
-  {
-    id: 5,
-    categoryId: 1,
-    category: 'Sofas',
-    name: 'Classic Gray Sofa',
-    model: 'CGS-2001',
-    price: 34999,
-    discount: 20,
-    offerPrice: 27999,
-    image: '/Orange Furniture Assets/Sofas/IMG_6415-Photoroom.png',
-    description: 'Timeless gray sofa with soft fabric upholstery'
-  },
-  {
-    id: 6,
-    categoryId: 1,
-    category: 'Sofas',
-    name: 'Luxury Leather Sectional',
-    model: 'LLS-5001',
-    price: 78999,
-    discount: 25,
-    offerPrice: 59249,
-    image: '/Orange Furniture Assets/Sofas/IMG_6416-Photoroom.png',
-    description: 'Premium leather sectional with adjustable headrests'
-  },
-  {
-    id: 7,
-    categoryId: 1,
-    category: 'Sofas',
-    name: 'Modern White Sofa',
-    model: 'MWS-2001',
-    price: 39999,
-    discount: 20,
-    offerPrice: 31999,
-    image: '/Orange Furniture Assets/Sofas/IMG_6417-Photoroom.png',
-    description: 'Sleek white sofa perfect for minimalist interiors'
-  },
-  {
-    id: 8,
-    categoryId: 1,
-    category: 'Sofas',
-    name: 'Comfort Cloud Sectional',
-    model: 'CCS-6001',
-    price: 65999,
-    discount: 25,
-    offerPrice: 49499,
-    image: '/Orange Furniture Assets/Sofas/IMG_6418-Photoroom.png',
-    description: 'Extra-plush sectional with cloud-like comfort'
-  },
-  {
-    id: 9,
-    categoryId: 1,
-    category: 'Sofas',
-    name: 'Contemporary Chaise Sofa',
-    model: 'CHS-3001',
-    price: 48999,
-    discount: 20,
-    offerPrice: 39199,
-    image: '/Orange Furniture Assets/Sofas/IMG_6419-Photoroom.png',
-    description: 'Stylish sofa with attached chaise lounge'
-  },
-  {
-    id: 10,
-    categoryId: 1,
-    category: 'Sofas',
-    name: 'Elegant Black Sofa',
-    model: 'EBS-2001',
-    price: 42999,
-    discount: 20,
-    offerPrice: 34399,
-    image: '/Orange Furniture Assets/Sofas/IMG_6420-Photoroom.png',
-    description: 'Sophisticated black sofa with modern aesthetics'
-  },
-  {
     id: 11,
     categoryId: 1,
     category: 'Sofas',
@@ -131,90 +35,6 @@ export const products = [
     offerPrice: 44799,
     image: '/Orange Furniture Assets/Sofas/IMG_6428-Photoroom.png',
     description: 'Rustic vintage-style sofa with character'
-  },
-  {
-    id: 12,
-    categoryId: 1,
-    category: 'Sofas',
-    name: 'Beige Comfort Sofa',
-    model: 'BCS-2001',
-    price: 32999,
-    discount: 20,
-    offerPrice: 26399,
-    image: '/Orange Furniture Assets/Sofas/IMG_6430-Photoroom.png',
-    description: 'Warm beige sofa for cozy living spaces'
-  },
-  {
-    id: 13,
-    categoryId: 1,
-    category: 'Sofas',
-    name: 'Modern Teal Sectional',
-    model: 'MTS-4001',
-    price: 59999,
-    discount: 25,
-    offerPrice: 44999,
-    image: '/Orange Furniture Assets/Sofas/IMG_6431-Photoroom.png',
-    description: 'Eye-catching teal colored sectional'
-  },
-  {
-    id: 14,
-    categoryId: 1,
-    category: 'Sofas',
-    name: 'Premium Fabric Sofa',
-    model: 'PFS-2001',
-    price: 38999,
-    discount: 20,
-    offerPrice: 31199,
-    image: '/Orange Furniture Assets/Sofas/IMG_6432-Photoroom.png',
-    description: 'High-quality fabric sofa with excellent durability'
-  },
-  {
-    id: 15,
-    categoryId: 1,
-    category: 'Sofas',
-    name: 'Luxury Reclining Sectional',
-    model: 'LRS-5001',
-    price: 89999,
-    discount: 30,
-    offerPrice: 62999,
-    image: '/Orange Furniture Assets/Sofas/IMG_6433-Photoroom.png',
-    description: 'Full reclining sectional for ultimate comfort'
-  },
-  {
-    id: 16,
-    categoryId: 1,
-    category: 'Sofas',
-    name: 'Stylish Gray Sectional',
-    model: 'SGS-4001',
-    price: 62999,
-    discount: 25,
-    offerPrice: 47249,
-    image: '/Orange Furniture Assets/Sofas/IMG_6434-Photoroom.png',
-    description: 'Modern gray sectional with clean lines'
-  },
-  {
-    id: 17,
-    categoryId: 1,
-    category: 'Sofas',
-    name: 'Compact Studio Sofa',
-    model: 'CSS-1501',
-    price: 24999,
-    discount: 15,
-    offerPrice: 21249,
-    image: '/Orange Furniture Assets/Sofas/IMG_6435-Photoroom.png',
-    description: 'Perfect for studio apartments and small rooms'
-  },
-  {
-    id: 18,
-    categoryId: 1,
-    category: 'Sofas',
-    name: 'Premium Sectional Lounge',
-    model: 'PSL-6001',
-    price: 75999,
-    discount: 25,
-    offerPrice: 56999,
-    image: '/Orange Furniture Assets/Sofas/IMG_6436-Photoroom.png',
-    description: 'Expansive sectional with lounging area'
   },
   {
     id: 19,
@@ -288,55 +108,6 @@ export const products = [
     image: '/Orange Furniture Assets/Sofas/20260420_145140.jpg-Photoroom.png',
     description: 'Deep burgundy reclining sofa'
   },
-  {
-    id: 25,
-    categoryId: 1,
-    category: 'Sofas',
-    name: 'Multi-Tone Fabric Sofa',
-    model: 'MFS-2501',
-    price: 44999,
-    discount: 20,
-    offerPrice: 35999,
-    image: '/Orange Furniture Assets/Sofas/IMG_6380-Photoroom.png',
-    description: 'Fashionable multi-tone fabric sofa'
-  },
-  {
-    id: 26,
-    categoryId: 1,
-    category: 'Sofas',
-    name: 'Leather Look Sofa',
-    model: 'LLS-2001',
-    price: 39999,
-    discount: 20,
-    offerPrice: 31999,
-    image: '/Orange Furniture Assets/Sofas/IMG_6381-Photoroom.png',
-    description: 'Sophisticated leather-look upholstered sofa'
-  },
-  {
-    id: 27,
-    categoryId: 1,
-    category: 'Sofas',
-    name: 'Quilted Pattern Sofa',
-    model: 'QPS-2001',
-    price: 37999,
-    discount: 20,
-    offerPrice: 30399,
-    image: '/Orange Furniture Assets/Sofas/IMG_6382-Photoroom.png',
-    description: 'Stylish sofa with quilted detailing'
-  },
-  {
-    id: 28,
-    categoryId: 1,
-    category: 'Sofas',
-    name: 'Executive Lounge Sofa',
-    model: 'ELS-3501',
-    price: 68999,
-    discount: 25,
-    offerPrice: 51749,
-    image: '/Orange Furniture Assets/Sofas/IMG_6412-Photoroom.png',
-    description: 'Premium lounge sofa for executive areas'
-  },
-
   // CHAIRS (9 products)
   {
     id: 29,
@@ -907,228 +678,10 @@ export const products = [
     description: 'Versatile ottoman style tea table'
   },
 
-  // CUPBOARDS (18 products)
-  {
-    id: 76,
-    categoryId: 5,
-    category: 'Cupboards',
-    name: 'Two-Tone Storage Cabinet',
-    model: 'TSC-1001',
-    price: 19999,
-    discount: 20,
-    offerPrice: 15999,
-    image: '/Orange Furniture Assets/Cupboards/IMG_6401-Photoroom.png',
-    description: 'Spacious white and black storage cabinet with double doors'
-  },
-  {
-    id: 77,
-    categoryId: 5,
-    category: 'Cupboards',
-    name: 'Premium Steel Wardrobe',
-    model: 'PSW-2001',
-    price: 34999,
-    discount: 25,
-    offerPrice: 26249,
-    image: '/Orange Furniture Assets/Cupboards/IMG_6423-Photoroom.png',
-    description: 'Tall steel cabinet with secure locking mechanism - ideal for office storage'
-  },
-  {
-    id: 78,
-    categoryId: 5,
-    category: 'Cupboards',
-    name: 'Classic Wooden Almirah',
-    model: 'CWA-3001',
-    price: 24999,
-    discount: 20,
-    offerPrice: 19999,
-    image: '/Orange Furniture Assets/Cupboards/IMG_6426-Photoroom.png',
-    description: 'Traditional wooden wardrobe with brass handles and spacious compartments'
-  },
-  {
-    id: 79,
-    categoryId: 5,
-    category: 'Cupboards',
-    name: 'Minimalist White Cabinet',
-    model: 'MWC-1001',
-    price: 17999,
-    discount: 20,
-    offerPrice: 14399,
-    image: '/Orange Furniture Assets/Cupboards/IMG_6380-Photoroom.png',
-    description: 'Clean minimalist white storage cabinet'
-  },
-  {
-    id: 80,
-    categoryId: 5,
-    category: 'Cupboards',
-    name: 'Black Modern Cabinet',
-    model: 'BMC-1001',
-    price: 21999,
-    discount: 20,
-    offerPrice: 17599,
-    image: '/Orange Furniture Assets/Cupboards/IMG_6381-Photoroom.png',
-    description: 'Sleek black modern cupboard'
-  },
-  {
-    id: 81,
-    categoryId: 5,
-    category: 'Cupboards',
-    name: 'Tall Shelving Unit',
-    model: 'TSU-2001',
-    price: 28999,
-    discount: 25,
-    offerPrice: 21749,
-    image: '/Orange Furniture Assets/Cupboards/IMG_6382-Photoroom.png',
-    description: 'Tall shelving unit for maximum storage'
-  },
-  {
-    id: 82,
-    categoryId: 5,
-    category: 'Cupboards',
-    name: 'Display Cabinet',
-    model: 'DCB-1001',
-    price: 26999,
-    discount: 20,
-    offerPrice: 21599,
-    image: '/Orange Furniture Assets/Cupboards/IMG_6414-Photoroom.png',
-    description: 'Glass fronted display cabinet for showcasing items'
-  },
-  {
-    id: 83,
-    categoryId: 5,
-    category: 'Cupboards',
-    name: 'Open Shelving Cabinet',
-    model: 'OSC-1001',
-    price: 15999,
-    discount: 15,
-    offerPrice: 13599,
-    image: '/Orange Furniture Assets/Cupboards/IMG_6415-Photoroom.png',
-    description: 'Open shelving design for easy access'
-  },
-  {
-    id: 84,
-    categoryId: 5,
-    category: 'Cupboards',
-    name: 'Corner Storage Cabinet',
-    model: 'CSC-1001',
-    price: 22999,
-    discount: 20,
-    offerPrice: 18399,
-    image: '/Orange Furniture Assets/Cupboards/IMG_6416-Photoroom.png',
-    description: 'Efficient corner storage cabinet'
-  },
-  {
-    id: 85,
-    categoryId: 5,
-    category: 'Cupboards',
-    name: 'Sliding Door Wardrobe',
-    model: 'SDW-2001',
-    price: 38999,
-    discount: 25,
-    offerPrice: 29249,
-    image: '/Orange Furniture Assets/Cupboards/IMG_6417-Photoroom.png',
-    description: 'Modern sliding door wardrobe'
-  },
-  {
-    id: 86,
-    categoryId: 5,
-    category: 'Cupboards',
-    name: 'Rustic Wood Cabinet',
-    model: 'RWC-1001',
-    price: 31999,
-    discount: 20,
-    offerPrice: 25599,
-    image: '/Orange Furniture Assets/Cupboards/IMG_6418-Photoroom.png',
-    description: 'Rustic style wooden cabinet'
-  },
-  {
-    id: 87,
-    categoryId: 5,
-    category: 'Cupboards',
-    name: 'Metal Storage Locker',
-    model: 'MSL-1001',
-    price: 23999,
-    discount: 20,
-    offerPrice: 19199,
-    image: '/Orange Furniture Assets/Cupboards/IMG_6419-Photoroom.png',
-    description: 'Industrial metal storage locker'
-  },
-  {
-    id: 88,
-    categoryId: 5,
-    category: 'Cupboards',
-    name: 'Painted Wooden Cabinet',
-    model: 'PWC-1001',
-    price: 25999,
-    discount: 20,
-    offerPrice: 20799,
-    image: '/Orange Furniture Assets/Cupboards/IMG_6420-Photoroom.png',
-    description: 'Beautifully painted wooden storage cabinet'
-  },
-  {
-    id: 89,
-    categoryId: 5,
-    category: 'Cupboards',
-    name: 'Wall-Mounted Cabinet',
-    model: 'WMC-1001',
-    price: 14999,
-    discount: 15,
-    offerPrice: 12749,
-    image: '/Orange Furniture Assets/Cupboards/IMG_6430-Photoroom.png',
-    description: 'Space-saving wall-mounted cabinet'
-  },
-  {
-    id: 90,
-    categoryId: 5,
-    category: 'Cupboards',
-    name: 'Glass Door Cabinet',
-    model: 'GDC-1001',
-    price: 29999,
-    discount: 20,
-    offerPrice: 23999,
-    image: '/Orange Furniture Assets/Cupboards/IMG_6431-Photoroom.png',
-    description: 'Elegant cabinet with glass doors'
-  },
-  {
-    id: 91,
-    categoryId: 5,
-    category: 'Cupboards',
-    name: 'Wardrobe with Mirror',
-    model: 'WWM-2001',
-    price: 35999,
-    discount: 25,
-    offerPrice: 26999,
-    image: '/Orange Furniture Assets/Cupboards/IMG_6432-Photoroom.png',
-    description: 'Wardrobe with integrated mirror'
-  },
-  {
-    id: 92,
-    categoryId: 5,
-    category: 'Cupboards',
-    name: 'Multi-Drawer Cabinet',
-    model: 'MDC-1001',
-    price: 27999,
-    discount: 20,
-    offerPrice: 22399,
-    image: '/Orange Furniture Assets/Cupboards/IMG_6433-Photoroom.png',
-    description: 'Cabinet with multiple drawers for organization'
-  },
-  {
-    id: 93,
-    categoryId: 5,
-    category: 'Cupboards',
-    name: 'Tall Narrow Cabinet',
-    model: 'TNC-1001',
-    price: 19999,
-    discount: 15,
-    offerPrice: 16999,
-    image: '/Orange Furniture Assets/Cupboards/IMG_6434-Photoroom.png',
-    description: 'Tall narrow cabinet for compact spaces'
-  },
-
   // OFFICE TABLES (11 products)
   {
     id: 94,
-    categoryId: 6,
+    categoryId:  5,
     category: 'Office Tables',
     name: 'Executive Desk',
     model: 'ED-2001',
@@ -1140,7 +693,7 @@ export const products = [
   },
   {
     id: 95,
-    categoryId: 6,
+    categoryId:  5,
     category: 'Office Tables',
     name: 'Modern Work Table',
     model: 'MWT-1001',
@@ -1152,7 +705,7 @@ export const products = [
   },
   {
     id: 96,
-    categoryId: 6,
+    categoryId:  5,
     category: 'Office Tables',
     name: 'Glass Top Desk',
     model: 'GTD-1001',
@@ -1164,7 +717,7 @@ export const products = [
   },
   {
     id: 97,
-    categoryId: 6,
+    categoryId:  5,
     category: 'Office Tables',
     name: 'Wooden Office Desk',
     model: 'WOD-2001',
@@ -1176,7 +729,7 @@ export const products = [
   },
   {
     id: 98,
-    categoryId: 6,
+    categoryId:  5,
     category: 'Office Tables',
     name: 'Computer Workstation',
     model: 'CW-1001',
@@ -1188,7 +741,7 @@ export const products = [
   },
   {
     id: 99,
-    categoryId: 6,
+    categoryId:  5,
     category: 'Office Tables',
     name: 'L-Shaped Office Desk',
     model: 'LOD-3001',
@@ -1200,7 +753,7 @@ export const products = [
   },
   {
     id: 100,
-    categoryId: 6,
+    categoryId:  5,
     category: 'Office Tables',
     name: 'Adjustable Height Desk',
     model: 'AHD-2001',
@@ -1212,7 +765,7 @@ export const products = [
   },
   {
     id: 101,
-    categoryId: 6,
+    categoryId:  5,
     category: 'Office Tables',
     name: 'Compact Home Desk',
     model: 'CHD-1001',
@@ -1224,7 +777,7 @@ export const products = [
   },
   {
     id: 102,
-    categoryId: 6,
+    categoryId:  5,
     category: 'Office Tables',
     name: 'Metal Frame Desk',
     model: 'MFD-1001',
@@ -1236,7 +789,7 @@ export const products = [
   },
   {
     id: 103,
-    categoryId: 6,
+    categoryId:  5,
     category: 'Office Tables',
     name: 'Floating Wall Desk',
     model: 'FWD-1001',
@@ -1248,7 +801,7 @@ export const products = [
   },
   {
     id: 104,
-    categoryId: 6,
+    categoryId:  5,
     category: 'Office Tables',
     name: 'Conference Table',
     model: 'CT-6001',
@@ -1262,146 +815,146 @@ export const products = [
   // OTHERS (12 products)
   {
     id: 105,
-    categoryId: 7,
+    categoryId:  6,
     category: 'Others',
-    name: 'Bookshelf Unit',
-    model: 'BU-2001',
+    name: 'Storage Cabinet',
+    model: 'SC-2001',
     price: 16999,
     discount: 15,
     offerPrice: 14449,
     image: '/Orange Furniture Assets/Others/IMG_6380-Photoroom.png',
-    description: 'Tall bookshelf unit for book storage'
+    description: 'White storage cabinet with black top and dual doors'
   },
   {
     id: 106,
-    categoryId: 7,
+    categoryId:  6,
     category: 'Others',
-    name: 'Decorative Sideboard',
-    model: 'DS-1001',
+    name: 'Storage Bench with Cushion',
+    model: 'SBC-1001',
     price: 21999,
     discount: 20,
     offerPrice: 17599,
     image: '/Orange Furniture Assets/Others/IMG_6381-Photoroom.png',
-    description: 'Elegant decorative sideboard'
+    description: 'Wood storage bench with cushion seat and open shelves'
   },
   {
     id: 107,
-    categoryId: 7,
+    categoryId:  6,
     category: 'Others',
-    name: 'Storage Bench',
-    model: 'SB-1001',
+    name: 'Open Shelving Cabinet',
+    model: 'OSC-2001',
     price: 14999,
     discount: 15,
     offerPrice: 12749,
     image: '/Orange Furniture Assets/Others/IMG_6382-Photoroom.png',
-    description: 'Multipurpose storage bench'
+    description: 'Open wooden shelving cabinet with 3 compartments for storage'
   },
   {
     id: 108,
-    categoryId: 7,
+    categoryId:  6,
     category: 'Others',
-    name: 'TV Stand',
-    model: 'TS-2001',
+    name: 'Storage Drawer Nightstand',
+    model: 'SDN-1001',
     price: 13999,
     discount: 15,
     offerPrice: 11899,
     image: '/Orange Furniture Assets/Others/IMG_6412-Photoroom.png',
-    description: 'Modern TV stand with storage'
+    description: 'White storage nightstand with multiple drawers'
   },
   {
     id: 109,
-    categoryId: 7,
+    categoryId:  6,
     category: 'Others',
-    name: 'Bar Counter',
-    model: 'BC-1001',
+    name: 'TV Media Console',
+    model: 'TMC-1001',
     price: 26999,
     discount: 20,
     offerPrice: 21599,
     image: '/Orange Furniture Assets/Others/IMG_6413-Photoroom.png',
-    description: 'Stylish home bar counter'
+    description: 'Modern white TV media console with drawer and open shelves'
   },
   {
     id: 110,
-    categoryId: 7,
+    categoryId:  6,
     category: 'Others',
-    name: 'Shoe Rack',
-    model: 'SR-1001',
+    name: 'Wooden Shelving Cabinet',
+    model: 'WSC-1001',
     price: 8999,
     discount: 10,
     offerPrice: 8099,
     image: '/Orange Furniture Assets/Others/IMG_6414-Photoroom.png',
-    description: 'Practical shoe storage rack'
+    description: 'Natural wood shelving cabinet with drawer and multiple compartments'
   },
   {
     id: 111,
-    categoryId: 7,
+    categoryId:  6,
     category: 'Others',
-    name: 'Console Table',
-    model: 'CT-1001',
+    name: 'Wooden Console Table',
+    model: 'WCT-1001',
     price: 12999,
     discount: 15,
     offerPrice: 11049,
     image: '/Orange Furniture Assets/Others/IMG_6415-Photoroom.png',
-    description: 'Sleek console table for entryways'
+    description: 'Natural wooden console table for entryways'
   },
   {
     id: 112,
-    categoryId: 7,
+    categoryId:  6,
     category: 'Others',
-    name: 'Wall Mounted Shelves',
-    model: 'WMS-1001',
+    name: 'Floating Wall Shelves',
+    model: 'FWS-1001',
     price: 9999,
     discount: 10,
     offerPrice: 8999,
     image: '/Orange Furniture Assets/Others/IMG_6416-Photoroom.png',
-    description: 'Modern wall-mounted floating shelves'
+    description: 'Modern floating wall shelves for storage and display'
   },
   {
     id: 113,
-    categoryId: 7,
+    categoryId:  6,
     category: 'Others',
-    name: 'Coat Rack Stand',
-    model: 'CRS-1001',
+    name: 'Wooden Coat Rack',
+    model: 'WCR-1001',
     price: 7999,
     discount: 10,
     offerPrice: 7199,
     image: '/Orange Furniture Assets/Others/IMG_6417-Photoroom.png',
-    description: 'Elegant coat rack stand'
+    description: 'Natural wooden coat rack stand for hallways'
   },
   {
     id: 114,
-    categoryId: 7,
+    categoryId:  6,
     category: 'Others',
-    name: 'Magazine Holder',
-    model: 'MH-1001',
+    name: 'Magazine Rack',
+    model: 'MR-1001',
     price: 4999,
     discount: 10,
     offerPrice: 4499,
     image: '/Orange Furniture Assets/Others/IMG_6418-Photoroom.png',
-    description: 'Stylish magazine and book holder'
+    description: 'Magazine and newspaper rack for living rooms'
   },
   {
     id: 115,
-    categoryId: 7,
+    categoryId:  6,
     category: 'Others',
-    name: 'Plant Stand',
-    model: 'PS-1001',
+    name: 'Wooden Plant Stand',
+    model: 'WPS-1001',
     price: 6999,
     discount: 10,
     offerPrice: 6299,
     image: '/Orange Furniture Assets/Others/IMG_6419-Photoroom.png',
-    description: 'Decorative plant stand'
+    description: 'Natural wooden plant stand for indoor plants'
   },
   {
     id: 116,
-    categoryId: 7,
+    categoryId:  6,
     category: 'Others',
-    name: 'Mirror Frame',
-    model: 'MF-1001',
+    name: 'Decorative Mirror with Frame',
+    model: 'DMF-1001',
     price: 11999,
     discount: 15,
     offerPrice: 10199,
     image: '/Orange Furniture Assets/Others/IMG_6420-Photoroom.png',
-    description: 'Decorative mirror frame for walls'
+    description: 'Decorative mirror with elegant frame for walls'
   }
 ];

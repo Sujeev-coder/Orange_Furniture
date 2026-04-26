@@ -29,20 +29,13 @@ export const productCategories = [
   },
   {
     id: 5,
-    name: 'Cupboards',
-    description: 'Spacious storage solutions for your home',
-    image: '/Orange Furniture Assets/Cupboards/IMG_6380-Photoroom.png',
-    folder: 'Cupboards'
-  },
-  {
-    id: 6,
     name: 'Office Tables',
     description: 'Professional office furniture and workstations',
     image: '/Orange Furniture Assets/Office tables/20260420_144955.jpg-Photoroom.png',
     folder: 'Office tables'
   },
   {
-    id: 7,
+    id: 6,
     name: 'Others',
     description: 'Miscellaneous furniture and accessories',
     image: '/Orange Furniture Assets/Others/IMG_6380-Photoroom.png',
