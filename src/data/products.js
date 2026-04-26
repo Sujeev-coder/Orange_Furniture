@@ -389,7 +389,7 @@ export const products = [
     name: 'Oven Stand',
     model: 'Oven Stand',
     price: 12500,
-    discount: 0,
+    discount: 67,
     offerPrice: 4150,
     image: '/Orange Furniture Assets/Others/IMG_6380-Photoroom.png',
     description: 'White storage cabinet with black top and dual doors'
@@ -413,7 +413,7 @@ export const products = [
     name: 'Shoe rack',
     model: 'Shoe rack',
     price: 6800,
-    discount: 0,
+    discount: 65,
     offerPrice: 2400,
     image: '/Orange Furniture Assets/Others/IMG_6382-Photoroom.png',
     description: 'Open wooden shelving cabinet with 3 compartments for storage'
