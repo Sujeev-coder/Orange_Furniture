@@ -547,7 +547,7 @@ export const products = [
 
   // TEA TABLES (9 products)
   {
-    id: 67,
+    id: 75,
     categoryId: 4,
     category: 'Tea Tables',
     name: 'Dressing Mirror',
@@ -559,7 +559,7 @@ export const products = [
     description: 'Elegant black frame mirror with integrated storage compartment'
   },
   {
-    id: 68,
+    id: 76,
     categoryId: 4,
     category: 'Tea Tables',
     name: ' Center table',
