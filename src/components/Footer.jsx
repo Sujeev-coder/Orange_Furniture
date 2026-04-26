@@ -64,9 +64,11 @@ const Footer = () => {
           <div className="footer-links">
             <h4>Contact Info</h4>
             <ul>
-              <li>Sai Nagar, Nagole</li>
-              <li>Hyderabad, Telangana</li>
+              <li>2-3-456, Sai Nagar</li>
+              <li>Alkapuri X Roads, Nagole</li>
+              <li>Hyderabad - 500068</li>
               <li><a href="tel:+919246221000">+91 92462 21000</a></li>
+              <li><a href="tel:040-2422009">040 - 2422009</a></li>
               <li>Open until 9:30 PM</li>
             </ul>
           </div>

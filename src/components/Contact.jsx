@@ -27,7 +27,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <strong>Address</strong>
-                    <p>Sai Nagar, Nagole, Hyderabad,<br/>Telangana, India</p>
+                    <p>2-3-456, Sai Nagar,<br/>Alkapuri X Roads, Nagole,<br/>Hyderabad - 500068</p>
                   </div>
                 </div>
                 <div className="contact-item">
@@ -36,7 +36,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <strong>Phone</strong>
-                    <p><a href="tel:+919246221000">+91 92462 21000</a></p>
+                    <p><a href="tel:+919246221000">+91 92462 21000</a><br/><a href="tel:040-2422009">040 - 2422009</a></p>
                   </div>
                 </div>
                 <div className="contact-item">
