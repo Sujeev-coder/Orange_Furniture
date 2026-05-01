@@ -558,30 +558,8 @@ export const products = [
     image: '/Orange Furniture Assets/tea tables/IMG_6374-Photoroom.png',
     description: 'Elegant black frame mirror with integrated storage compartment'
   },
-  {
-    id: 76,
-    categoryId: 4,
-    category: 'Tea Tables',
-    name: ' Center table',
-    model: 'Wooden',
-    price: 9850,
-    discount: 71,
-    offerPrice: 2850,
-    image: '/Orange Furniture Assets/tea tables/IMG_6376-Photoroom.png',
-    description: 'Minimalist stone top coffee table with wooden legs'
-  },
-  {
-    id: 69,
-    categoryId: 4,
-    category: 'Tea Tables',
-    name: 'Baby Study table',
-    model: 'Study table',
-    price: 6850,
-    discount: 73,
-    offerPrice: 1850,
-    image: '/Orange Furniture Assets/tea tables/IMG_6378-Photoroom.png',
-    description: 'Contemporary tiered glass tea table - perfect for small spaces'
-  },
+  
+  
   {
     id: 72,
     categoryId: 4,
@@ -789,6 +767,30 @@ export const products = [
     offerPrice: 7850,
     image: '/Orange Furniture Assets/Others/IMG_6419-Photoroom.png',
     description: 'Natural wooden plant stand for indoor plants'
+  },
+  {
+    id: 76,
+    categoryId: 4,
+    category: 'Tea Tables',
+    name: ' Center table',
+    model: 'Wooden',
+    price: 9850,
+    discount: 71,
+    offerPrice: 2850,
+    image: '/Orange Furniture Assets/tea tables/IMG_6376-Photoroom.png',
+    description: 'Minimalist stone top coffee table with wooden legs'
+  },
+  {
+    id: 69,
+    categoryId: 4,
+    category: 'Tea Tables',
+    name: 'Baby Study table',
+    model: 'Study table',
+    price: 6850,
+    discount: 73,
+    offerPrice: 1850,
+    image: '/Orange Furniture Assets/tea tables/IMG_6378-Photoroom.png',
+    description: 'Contemporary tiered glass tea table - perfect for small spaces'
   },
   {
     id: 116,
